@@ -1,0 +1,22 @@
+{
+    "name": "heroku",
+    "description": "heroku yes",
+    "keywords": ["heroku yes"],
+    "env": {
+        "AA": {
+            "description": "初阶用户只需填写App name后按需修改以下APASSWORD和AUUID两项后点击页面最后的Deploy app按钮即可开始部署",
+            "value": "如出现错误，请检查参数格式或多尝试几次。使用自定义参数请务必先充分理解其含义"
+        },
+        "CADDYIndexPage": {
+            "description": "自定义CADDY部署完成后点击View显示的页面内容，不熟悉CADDY配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "CADDYCONFIG": {
+            "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
+            "value": "https://raw.githubusercontent.com/mixool/heroku/master/etc/Caddyfile"
+        },
+    },
+    "website": "https://github.com/mixool/heroku",
+    "repository": "https://github.com/mixool/heroku",
+    "stack": "container"
+}
